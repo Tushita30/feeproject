@@ -1,0 +1,106 @@
+
+*{
+    padding: 0%;
+    margin: 0%; 
+ }
+ body{
+     overflow-x: hidden;
+ }
+
+ 
+/* NAVIGATION BAR */
+.top
+{
+    height: 8px;
+    width: 100%;
+    background-color: #000000;
+    padding-bottom: 2px;
+
+}
+
+
+#navbar
+{
+    display:flex;
+    align-items: center; /*\center me ajata hai coloumn wise */
+    height: 80px;
+    justify-content: space-evenly;
+    background-color:#000000;
+    opacity: 0.749;
+    position:relative;
+    z-index: -1;
+    height: 10%;
+}
+
+
+
+/* NAVIGATION BAR : logo and image */
+
+#logo
+{
+    /* margin:7px 70px; */
+    z-index: 1;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: auto;
+    
+}
+
+#tripimg
+{
+    padding-top:px;
+    z-index: 1;
+    
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: auto;
+}
+
+#freebie
+{
+    margin-left: -130px;
+    
+    
+    margin-bottom: 12px;
+    width: auto;
+}
+
+/*NAVIGATION BAR:  list styling */
+
+#navbar ul
+{
+    display: flex;
+}
+
+
+
+
+#navbar ul li
+{
+
+    list-style-type: none; /*bindu bindu nahi ayenge */
+    font-size: 1.2rem;
+}
+
+
+
+#navbar ul li a
+{
+    color: white;
+    display:block;
+    padding:3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 400px)
+{
+    body 
+    {
+        background-color: green;
+    }
+}
+
+ 
+ 
